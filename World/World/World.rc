@@ -1,0 +1,259 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (Taiwan) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_TRADITIONAL
+#pragma code_page(950)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)\r\n"
+    "LANGUAGE 4, 1\r\n"
+    "#pragma code_page(950)\r\n"
+    "#include ""res\\World.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\World.ico"
+ID_ICON_UP              ICON                    "res\\UP.ico"
+ID_ICON_DOWN            ICON                    "res\\DOWN.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_WORLD_DIALOG DIALOGEX 0, 0, 486, 154
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "World"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "Message :",IDC_STA_MSG,9,138,46,10
+    LTEXT           "",IDC_STA_MSG_SHOW,47,138,414,12
+    LTEXT           "User Name :",IDC_STA_USERNAME,9,118,46,10
+    EDITTEXT        IDC_EDT_USERNAME,57,117,101,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Connect",IDC_BTN_CONNECT_SERVER,332,116,61,14
+    PUSHBUTTON      "DisConnect",IDC_BTN_DISCONNECT_SERVER,405,116,61,14
+    PUSHBUTTON      "",IDC_BTN_HIDE_PLAYER2_CARDLIST,477,33,8,6
+    PUSHBUTTON      "",IDC_BTN_HIDE_SELF_CARDLIST,477,72,8,6
+    PUSHBUTTON      "",IDC_BTN_HIDE_OPTIONS,477,110,8,6
+    LTEXT           "Unregister User",IDC_STA_SELF_NAME,7,75,79,8
+    LTEXT           "Player1 Name",IDC_STA_PLAYER1_NAME,7,2,53,8
+    LTEXT           "Player2 Name",IDC_STA_PLAYER2_NAME,7,38,51,8
+    CONTROL         "Number",IDC_BTN_SORT_BY_NUMBER,"Button",BS_AUTORADIOBUTTON,353,2,56,10
+    CONTROL         "Suit",IDC_BTN_SORT_BY_SUIT,"Button",BS_AUTORADIOBUTTON,412,2,55,10
+    LTEXT           "Card sort by :",IDC_STA_SORT,313,2,32,10
+    CONTROL         "",IDC_STA_LINE1,"Static",SS_BLACKFRAME | SS_SUNKEN,7,36,466,1
+    CONTROL         "",IDC_STA_LINE2,"Static",SS_BLACKFRAME | SS_SUNKEN,7,74,466,1
+    CONTROL         "",IDC_STA_LINE3,"Static",SS_BLACKFRAME | SS_SUNKEN,7,112,466,1
+    CONTROL         "",IDC_STA_LINE4,"Static",SS_BLACKFRAME | SS_SUNKEN,7,135,466,1
+    LTEXT           "Channel ID :",IDC_STA_CHANNELID,172,118,45,10
+    COMBOBOX        IDC_CB_CHANNELID,221,117,87,12,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "¡´",IDC_STA_ANCHOR,63,5,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR2,130,5,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR3,197,5,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR4,264,5,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR5,63,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR6,130,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR7,197,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR8,264,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR9,331,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR10,398,42,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR12,63,81,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR13,130,81,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR14,197,81,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR15,264,81,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR16,331,81,8,8
+    LTEXT           "¡´",IDC_STA_ANCHOR17,398,81,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "A2Z"
+            VALUE "FileDescription", "World Cleint"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "World.exe"
+            VALUE "LegalCopyright", "A2Z  All rights reserved."
+            VALUE "OriginalFilename", "World.exe"
+            VALUE "ProductName", "World Cleint"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_WORLD_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 485
+        BOTTOMMARGIN, 153
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+1                       BITMAP                  "res\\Bmp1.bmp"
+2                       BITMAP                  "res\\Bmp2.bmp"
+3                       BITMAP                  "res\\Bmp3.bmp"
+4                       BITMAP                  "res\\Bmp4.bmp"
+5                       BITMAP                  "res\\Bmp5.bmp"
+6                       BITMAP                  "res\\Bmp6.bmp"
+7                       BITMAP                  "res\\Bmp7.bmp"
+8                       BITMAP                  "res\\Bmp8.bmp"
+9                       BITMAP                  "res\\Bmp9.bmp"
+10                      BITMAP                  "res\\Bmp10.bmp"
+11                      BITMAP                  "res\\Bmp11.bmp"
+12                      BITMAP                  "res\\Bmp12.bmp"
+13                      BITMAP                  "res\\Bmp13.bmp"
+14                      BITMAP                  "res\\Bmp14.bmp"
+15                      BITMAP                  "res\\Bmp15.bmp"
+16                      BITMAP                  "res\\Bmp16.bmp"
+17                      BITMAP                  "res\\Bmp17.bmp"
+18                      BITMAP                  "res\\Bmp18.bmp"
+19                      BITMAP                  "res\\Bmp19.bmp"
+20                      BITMAP                  "res\\Bmp20.bmp"
+21                      BITMAP                  "res\\Bmp21.bmp"
+22                      BITMAP                  "res\\Bmp22.bmp"
+23                      BITMAP                  "res\\Bmp23.bmp"
+24                      BITMAP                  "res\\Bmp24.bmp"
+25                      BITMAP                  "res\\Bmp25.bmp"
+26                      BITMAP                  "res\\Bmp26.bmp"
+27                      BITMAP                  "res\\Bmp27.bmp"
+28                      BITMAP                  "res\\Bmp28.bmp"
+29                      BITMAP                  "res\\Bmp29.bmp"
+30                      BITMAP                  "res\\Bmp30.bmp"
+31                      BITMAP                  "res\\Bmp31.bmp"
+32                      BITMAP                  "res\\Bmp32.bmp"
+33                      BITMAP                  "res\\Bmp33.bmp"
+34                      BITMAP                  "res\\Bmp34.bmp"
+35                      BITMAP                  "res\\Bmp35.bmp"
+36                      BITMAP                  "res\\Bmp36.bmp"
+37                      BITMAP                  "res\\Bmp37.bmp"
+38                      BITMAP                  "res\\Bmp38.bmp"
+39                      BITMAP                  "res\\Bmp39.bmp"
+40                      BITMAP                  "res\\Bmp40.bmp"
+41                      BITMAP                  "res\\Bmp41.bmp"
+42                      BITMAP                  "res\\Bmp42.bmp"
+43                      BITMAP                  "res\\Bmp43.bmp"
+44                      BITMAP                  "res\\Bmp44.bmp"
+45                      BITMAP                  "res\\Bmp45.bmp"
+46                      BITMAP                  "res\\Bmp46.bmp"
+47                      BITMAP                  "res\\Bmp47.bmp"
+48                      BITMAP                  "res\\Bmp48.bmp"
+49                      BITMAP                  "res\\Bmp49.bmp"
+50                      BITMAP                  "res\\Bmp50.bmp"
+51                      BITMAP                  "res\\Bmp51.bmp"
+52                      BITMAP                  "res\\Bmp52.bmp"
+#endif    // Chinese (Taiwan) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHT)
+LANGUAGE 4, 1
+#pragma code_page(950)
+#include "res\World.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
